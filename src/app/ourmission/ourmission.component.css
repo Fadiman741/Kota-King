@@ -1,0 +1,11 @@
+
+@media screen and (max-width: 650px) {
+
+        .mission {
+
+                flex-direction: column;
+        }  
+        .founder{
+                padding-top: 10px
+        }
+}

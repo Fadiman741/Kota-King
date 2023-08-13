@@ -1,0 +1,50 @@
+<div style="background-image: linear-gradient(to bottom, rgba(244, 143, 10, 0.95), rgba(238, 159, 2, 0.95));">
+    <div style="max-width: 1000px;margin: auto;padding: 20px;display: flex;justify-content: space-between;">
+      <div class="container mt-3 contactContent" id="six">
+        <div style="max-width: 800px;">
+          <h2>Get in touch with us!</h2>
+          <br>
+          <p>Got a question or proposal, or If you would like to join as a restaurant or driver or you just want to say hi, give us a call or drop us an email. We endeavour to answer all enquiries within 24 hours on business days.</p>
+        </div>
+        
+        <div style="display: flex;justify-content: space-between;">
+          <div class="col-lg-6">
+            <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+            <div class="map">
+                <div id="gmapcanvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Maleetse,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                </div>
+                <a class="googlehtml" href="https://www.embed-map.com" id="get-mapdata"></a>
+                <style>
+                    #gmapcanvas img.text-marker {
+                        max-width: none !important;
+                        background: none !important;
+                    }
+                    
+                    img {
+                        max-width: none
+                    }
+                </style>
+            </div>
+        </div>
+
+        <div class="col-lg-6" style="max-width: 450px;">
+            <form class="form" action="https://formsubmit.co/wiskatp2018@gmail.com" method="POST">
+                <!-- <label for="fname">Your Name:</label> -->
+                <input style="color:#ddd" id="name" type="text" class="form-control form-control-lg" placeholder="Name" required>
+                <!-- <label for="fname">Email:</label> -->
+                <input style="color:#ddd" id="email" type="email" class="form-control mt-3" placeholder="Email" required>
+                <input style="color:#ddd" id="email" type="email" class="form-control mt-3" placeholder="Subject" required>
+                <input type="hidden" name="_next" value="thankyou.html">
+                <div class="mb-3 mt-3">
+                    <!-- <label for="fname">Message:</label> -->
+                    <textarea style="color:#ddd" id="message" class="form-control" rows="5" id="comment" name="text" placeholder="Type your message" required></textarea>
+                </div>
+            </form>
+            <button type="submit" class="Contactme-btn">Send</button>
+        </div>
+        </div>
+
+    </div>
+    
+    </div>
+</div>
