@@ -1,0 +1,43 @@
+
+.main-container{
+        background-image: linear-gradient(to bottom, rgba(32, 32, 32, 0.95), rgba(38, 38, 38, 0.95)), url('src/assets/gallery/4.jpg');
+        background-size: cover;
+        padding: 50px;
+}
+.column {
+        width: 340px;
+    }
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        /* background-color:rgb(35, 164, 173) ; */
+        background-image:  url('https://www.accountancysa.org.za/wp-content/uploads/2022/12/Itani_Phaduli_300.jpg');
+        background-size: cover;
+        padding: 10px;
+    }
+    .container {
+        background-color:#fff ;
+        /* background-color:#0005 ; */
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        width: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-bottom: 10px;
+    }
+    .container h2 {
+        padding-top: 20px;
+        font-weight: 700;
+        font-size: l4px;
+        color: #aaa;
+        padding-bottom: 15px;
+        
+    }
+    .profile{
+        display:none
+    }
+    p{
+        color: #bbb;
+    }
