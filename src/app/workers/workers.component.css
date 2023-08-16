@@ -5,7 +5,7 @@
         padding: 50px;
 }
 .column {
-        width: 340px;
+        min-width: 300px;
     }
     .card {
         border: 1px solid #ddd;
@@ -40,4 +40,13 @@
     }
     p{
         color: #bbb;
+    }
+    @media screen and ( max-width: 678px){ 
+        .row{
+            flex-direction: column;
+        }
+        .main-container{
+
+            padding: 20px;
+    }
     }

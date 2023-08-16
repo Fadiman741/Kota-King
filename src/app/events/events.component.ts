@@ -13,10 +13,8 @@ export class EventsComponent implements OnInit {
     { "id": 3, "name": "Art", "url": "assets/events/1.jpeg" },    
     { "id": 4, "name": "Art", "url": "assets/events/1.jpeg" },    
     { "id": 4, "name": "Art", "url": "assets/events/1.jpeg" }
-    
   ]
   constructor() { }
-
   ngOnInit() {
   }
   customOptions: OwlOptions = {
@@ -43,5 +41,4 @@ export class EventsComponent implements OnInit {
     },
     nav: true
   }
-
 }
