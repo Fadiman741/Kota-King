@@ -17,16 +17,19 @@ export class NavbarComponent implements OnInit {
     this.scroller.scrollToAnchor("home");
   }
   goDown1() {
-    this.scroller.scrollToAnchor("about");
+    this.scroller.scrollToAnchor("regular");
   }
 
   goDown2() {
-    this.scroller.scrollToAnchor("gallery");
+    this.scroller.scrollToAnchor("menu");
   
   }
 
   goDown3() {
-    this.scroller.scrollToAnchor("projects");
+    this.scroller.scrollToAnchor("events");
+  }
+  goDown4() {
+    this.scroller.scrollToAnchor("ourteam");
   }
 
 }

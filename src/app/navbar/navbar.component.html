@@ -1,4 +1,4 @@
-<div style="height:90px;width: 100%;max-width: 1200px;margin: auto;">
+<div style="height:90px;width: 100%;max-width: 1400px;margin: auto;">
   <nav class="navbar" style="padding-left: 20px;padding-right: 20px;">
     <!-- LOGO -->
     <div class="logo">
@@ -13,11 +13,13 @@
         <input type="checkbox" id="checkbox_toggle" />
         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
         <div class="menu">
-            <li (click)="goHome()" ><a class="navlinks"><b>Home</b></a></li>
-            <li (click)="goDown1()"> <a class="navlinks"><b>About</b></a></li>
-            <li ><a class="navlinks" ><b>Blog</b></a></li>
-            <li (click)="goDown2()"><a class="navlinks" ><b>Gallery</b></a></li>
-            <li ><a class="navlinks" ><b>Contact</b></a></li>
+            <li (click)="goHome()" ><a class="navlinks">Home</a></li>
+            <li (click)="goDown1()"> <a class="navlinks">Regular</a></li>
+            <li (click)="goDown2()"><a class="navlinks" > Menus</a></li>
+            <li (click)="goDown4()"><a class="navlinks" >Our Team</a></li>
+            <li (click)="goDown3()"><a class="navlinks" >Events</a></li>
+
+            <!-- <li ><a class="navlinks" >Contact</a></li> -->
         </div>
     </ul>
   </nav>

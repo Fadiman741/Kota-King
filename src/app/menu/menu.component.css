@@ -5,7 +5,7 @@
         padding: 50px;
 }
 h2{
-        color: orange;
+        color: rgb(253, 253, 252);
         font-family:cursive;
         padding: 3px;
         font-size: 20px;
@@ -18,7 +18,7 @@ hr.style-seven {
         overflow: visible; /* For IE */
         height: 50px;
         border-style: solid;
-        border-color: orange;
+        border-color: rgb(255, 255, 255);
         border-width: 1.5px 0 0 0;
         border-radius: 20px;
         max-width: 250px;
@@ -30,7 +30,7 @@ hr.style-seven {
         height: 30px;
         margin-top: -31px;
         border-style: solid;
-        border-color: orange;
+        border-color: rgb(255, 255, 255);
         border-width: 0 0 1.5px 0;
         border-radius: 20px;
     }
